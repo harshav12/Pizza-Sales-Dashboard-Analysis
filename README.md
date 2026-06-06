@@ -1,6 +1,6 @@
 # Pizza-Sales-Dashboard-Analysis
 ## Project Overview
-This Project Analyzes pizza sales data using **MySQL** and **Power BI** to gain business insights into sales perofrmance, customer ordering behavior, product trends, and time-based sales patterns.
+This project analyzes pizza sales data using **MySQL** and **Power BI** to gain business insights into sales performance, customer ordering behavior, product trends, and time-based sales patterns.
 
 The project includes:
 - Data cleaning and preprocessing in MySQL
@@ -18,10 +18,10 @@ The objective of this project is to analyze pizza sales data and identify key bu
 - Total Orders
 - Total Pizzas Sold
 - Average Pizzas Per Order
-- Daily and Monthly order Trends
+- Daily and Monthly Order Trends
 - Sales Distribution by Pizza Category and Size
 - Top & Bottom Performing Pizzas
-- Customer ordering Behavior by Time Period
+- Customer Ordering Behavior by Time Period
 
 ---
 
@@ -36,10 +36,10 @@ The objective of this project is to analyze pizza sales data and identify key bu
 ---
 
 # Data Cleaning & Preprocessing
-Peformed multiple data cleaning and preprocessing steps in MySQL:
+Performed multiple data cleaning and preprocessing steps in MySQL:
 - Standardized mixed date formats using `STR_TO_DATE()`
 - Converted `order_date` column into DATE datatype
-- Coverted `order_time` column into TIME datatype
+- Converted `order_time` column into TIME datatype
 - Modified price columns to `DECIMAL(10,2)`
 - Changed text columns into appropriate `VARCHAR` sizes
 - Validated day-first date formats using SQL inspection queries
@@ -62,7 +62,7 @@ The following KPIs were calculated:
 Includes:
 - KPI cards
 - Daily Trend for Total Orders
-- Montly Trend for Total Orders
+- Monthly Trend for Total Orders
 - Sales Percentage by Pizza Category
 - Sales Percentage by Pizza Size
 - Total Pizzas Sold by Category
@@ -73,6 +73,7 @@ Includes:
 Includes:
 - Top 5 Pizzas by Revenue
 - Top 5 Pizzas by Quantity
+- Top 5 Pizzas by Total Orders
 - Bottom 5 Pizzas by Revenue
 - Bottom 5 Pizzas by Quantity
 - Bottom 5 Pizzas by Total Orders
@@ -83,7 +84,7 @@ Analysis page focused on customer ordering behavior across different time period
 Includes:
 - Day-wise filtering using slicers
 - Total Orders by Time Period
-- Selected Day orders analysis
+- Selected Day Orders analysis
 - Customer ordering behavior analysis across Day, Evening, and Night periods
 
 ---
@@ -93,13 +94,13 @@ Includes:
 - Large-size pizzas generated the highest sales.
 - Orders were highest during daytime, while evening orders also contributed significantly.
 - Friday and Saturday recorded higher ordering activity.
-- Maximum orders were recorded during July and January
+- Maximum orders were recorded during July and January.
 - The Classic Deluxe Pizza recorded the highest quantity sold and total orders.
-- The Brie Caree Pizza generated the lowest revenue and lowest order volume.
+- The Brie Carre Pizza generated the lowest revenue and lowest order volume.
 
 # Dashboard Features
 - Developed interactive multi-page Power BI dashboards for sales and customer behavior analysis
-- Added Time Period Analysis to evalute cusomter ordering trends across different periods of the day
-- Developed custom DAX calculation to support time-based sales analysis
+- Added Time Period Analysis to evaluate customer ordering trends across different periods of the day
+- Developed custom DAX calculations to support time-based sales analysis
 - Implemented interactive slicers, navigation buttons, and custom dashboard navigation
 - Created business insight panels for trend interpretation and performance analysis
