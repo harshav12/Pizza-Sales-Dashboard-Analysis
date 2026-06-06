@@ -29,7 +29,6 @@ The objective of this project is to analyze pizza sales data and identify key bu
 - MySQL
 - Power BI
 - DAX
-- SQL
 - Data Cleaning
 - Data Visualization
 
@@ -67,6 +66,7 @@ Includes:
 - Sales Percentage by Pizza Size
 - Total Pizzas Sold by Category
 - Business insights panel
+![Home Dashboard](Screenshots/Home.png)
 
 ---
 ## 2. Best/Worst Sellers Analysis
@@ -77,6 +77,7 @@ Includes:
 - Bottom 5 Pizzas by Revenue
 - Bottom 5 Pizzas by Quantity
 - Bottom 5 Pizzas by Total Orders
+![Best Worst Sellers](Screenshots/Best_And_Worst_Sellers.png)
 
 ---
 ## 3. Time Period Analysis
@@ -86,6 +87,15 @@ Includes:
 - Total Orders by Time Period
 - Selected Day Orders analysis
 - Customer ordering behavior analysis across Day, Evening, and Night periods
+![Time Period Analysis](Screenshots/Time_Period_Analysis.png)
+
+---
+
+# Key Business Questions Answered
+- Which pizza category drives the most revenue?
+- What time of day has the highest order volume?
+- Which pizzas should be promoted or discontinued?
+- What days and months see peak ordering activity?
 
 ---
 
