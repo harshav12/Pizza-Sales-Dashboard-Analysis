@@ -108,6 +108,8 @@ Includes:
 - The Classic Deluxe Pizza recorded the highest quantity sold and total orders.
 - The Brie Carre Pizza generated the lowest revenue and lowest order volume.
 
+---
+
 # Dashboard Features
 - Developed interactive multi-page Power BI dashboards for sales and customer behavior analysis
 - Added Time Period Analysis to evaluate customer ordering trends across different periods of the day
